@@ -6,7 +6,7 @@ public final class HomeConfiguration {
     private HomeConfiguration() {
     }
 
-    public HomeConfiguration getInstance() {
+    public static HomeConfiguration getInstance() {
         return Holder.INSTANCE;
     }
 
