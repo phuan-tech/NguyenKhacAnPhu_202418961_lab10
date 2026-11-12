@@ -1,3 +1,5 @@
+// Nguyễn Khắc An Phú 202418961
+
 public class SmartLight implements Device {
     private String name;
     private boolean isOn = false;
